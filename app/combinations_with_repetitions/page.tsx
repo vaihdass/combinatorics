@@ -1,6 +1,6 @@
 'use client'
 import { useState } from 'react';
-import {combinationsNoRepetitions, combinationsWithRepetitions, placementsWithRepetitions} from "@/utils/combinatorics";
+import {combinationsWithRepetitions} from "@/utils/combinatorics";
 import JSBI from "jsbi";
 
 export default function FormulaPage() {
