@@ -144,6 +144,7 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: bold;
+  margin: 12px 8px;
 }
 
 .calculation-page__btn-menu button:hover {
