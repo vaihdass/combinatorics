@@ -34,12 +34,12 @@ const cards: CardProps[] = [
   },
   {
     imgPath: "/urn_all.png",
-    title: "Url model (get all marked)",
+    title: "Urn model (get all marked)",
     path: "/urn_all_marked"
   },
   {
     imgPath: "/urn_part.png",
-    title: "Url model (get R marked)",
+    title: "Urn model (get R marked)",
     path: "/urn_part_marked"
   },
 ];
