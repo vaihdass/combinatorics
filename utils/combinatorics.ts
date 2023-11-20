@@ -96,7 +96,7 @@ const permutationsWithRepetitions = ({ params: {nArr, n} }: nArrFormulasProps): 
 }
 
 const combinationsNoRepetitions = ({ params: {n, k} }: nkFormulasProps): JSBI => {
-    if (k < 0 ) {
+    if (k < 0) {
         return JSBI.BigInt(-1);
     }
 
@@ -111,7 +111,7 @@ const combinationsNoRepetitions = ({ params: {n, k} }: nkFormulasProps): JSBI =>
 }
 
 const combinationsWithRepetitions = ({ params: {n, k} }: nkFormulasProps): JSBI => {
-    if (k < 0 || k > n) {
+    if (k < 0 || n < 0) {
         return JSBI.BigInt(-1);
     }
 
