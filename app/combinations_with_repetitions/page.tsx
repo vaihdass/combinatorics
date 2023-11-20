@@ -12,7 +12,7 @@ export default function FormulaPage() {
         const parsedN = parseInt(n, 10);
         const parsedK = parseInt(k, 10);
 
-        if (isNaN(parsedN) || isNaN(parsedK) || parsedN < 0 || parsedK < 0 || parsedN < parsedK) {
+        if (isNaN(parsedN) || isNaN(parsedK) || parsedN < 0 || parsedK < 0) {
             setResultMessage('Incorrect input data! Try again...');
         } else {
             const result = calc(parsedN, parsedK);
